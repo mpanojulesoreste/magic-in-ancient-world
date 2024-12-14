@@ -12,15 +12,15 @@ interface TimelineIntroProps {
     const keywords = [
     {
       term: "Lares",
-      definition: "Guardian deities associated with homes and roads"
+      definition: "Roman deities thought to be protectors of specific places (commonly homes and roads)"
     },
     {
       term: "Compita",
-      definition: "Crossroads shrines where offerings were made"
+      definition: "Crossroads shrines dedicated to the Lares Compitales, the protectors of crossroads, streets, and neighborhoods"
     },
     {
       term: "Genius",
-      definition: "Protective spirit of the master of the house"
+      definition: "a Roman protective spirit, believed to be intimately connected to an individual's life and well-being"
     },
     {
       term: "Vilica",

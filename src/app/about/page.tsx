@@ -8,7 +8,7 @@ const About = () => {
         {/* Hero Section */}
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-yellow-300 to-amber-200">
-            About Our Project
+            About the Project
           </h1>
           <p className="text-xl text-amber-100 max-w-3xl mx-auto">
             Exploring the intersection of daily life, protective magic, and religious practices 
@@ -25,21 +25,27 @@ const About = () => {
             </div>
             <p className="text-amber-100 mb-4">
               This project aims to make ancient Roman household magic accessible and 
-              understandable to modern audiences. We focus on how ordinary Romans used 
+              understandable to modern audiences. I focus on how ordinary Romans used 
               protective magic in their daily lives, moving beyond the common perception 
               of ancient magic as solely the domain of professional practitioners.
             </p>
-            <p className="text-amber-100">
-              Through interactive timelines and detailed archives, we demonstrate how 
+            <p className="text-amber-100 mb-12">
+              Through interactive timelines and detailed archives, I demonstrate how 
               magical thinking and practice were deeply integrated into everyday Roman 
               life across all social classes.
+            </p>
+
+            <p className="text-amber-100 mb-4">
+            Plate 11. House of Julius Polybius, Pompeii (IX.13.1–3). View of the
+            painting to the left of the small kitchen. After AD 62. The Dancing 
+            Lares and the Serpent in the Garden, Flower (2017). Page 252.
             </p>
           </div>
           
           <div className="bg-gray-800/50 rounded-lg overflow-hidden">
             <img 
-              src="/api/placeholder/600/400" 
-              alt="Roman household shrine illustration"
+              src="../House_of_Julius_Polybius.png" 
+              alt="House of Julius Polybius, Pompeii (IX.13.1–3). View of the painting to the left of the small kitchen. After AD 62."
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
             />
           </div>
@@ -87,8 +93,8 @@ const About = () => {
                 <li className="flex items-start gap-2">
                   <BookOpen className="w-5 h-5 mt-1 flex-shrink-0" />
                   <span>
-                    <strong className="text-amber-200">The Dancing Lares and the Serpent in the Garden</strong>
-                    : By H. I. Flower (2017) - A comprehensive study of religion at the Roman street corner
+                    <strong className="text-amber-200">The Dancing Lares and the Serpent in the Garden - Religion at the Roman Street Corner</strong>
+                    : By H. I. Flower (2017) - a comprehensive and richly illustrated book, the first to focus on the lares.
                   </span>
                 </li>
               </ul>

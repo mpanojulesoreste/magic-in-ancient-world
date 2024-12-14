@@ -1,6 +1,3 @@
 {
-  "/page": "app/page.js",
-  "/timeline/page": "app/timeline/page.js",
-  "/archive/page": "app/archive/page.js",
-  "/about/page": "app/about/page.js"
+  "/archive/page": "app/archive/page.js"
 }
